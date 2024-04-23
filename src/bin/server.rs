@@ -1,7 +1,7 @@
 use std::{error::Error, net::{IpAddr, Ipv4Addr}};
 
 use tokio::{io::AsyncWriteExt, net::*};
-use turmoil_quadriatic::{GB_SEND, PORT};
+use turmoil_repro::{GB_SEND, PORT};
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
